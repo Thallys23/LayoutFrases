@@ -58,6 +58,7 @@
         android:background="#621D61" />
 
     <TextView
+        android:id="@+id/text_view_nome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/View_topo"
@@ -76,9 +77,9 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="-58dp"
         android:layout_marginEnd="10dp"
-        android:text="Riscos devem se corridos, porque o maior
-        perigo é não arriscar nada!"
-        android:gravity="center"/>
+        android:text="Riscos devem se corridos, porque o maior perigo é não arriscar nada!"
+        android:gravity="center"
+        android:id="@+id/frase"/>
 
    <Button
         android:id="@+id/Button"
@@ -88,8 +89,7 @@
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="32dp"
-        android:text="Nova Frase"
-        />
+        android:text="Nova Frase" />
 
 
 </RelativeLayout>
